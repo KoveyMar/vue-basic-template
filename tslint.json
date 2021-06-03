@@ -1,0 +1,19 @@
+{
+  "defaultSeverity": "warning",
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  },
+  "rules": {
+    "member-access": [
+      true,
+      "no-public"
+    ],
+    "semicolon": [
+      true,
+      "always",
+      "ignore-bound-class-methods"
+    ]
+  }
+}
